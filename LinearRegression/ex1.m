@@ -45,7 +45,7 @@ m = length(y); % number of training examples
 % Plot Data
 % Note: You have to complete the code in plotData.m
 plotData(X, y);
-
+print("data.jpg");
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
@@ -74,7 +74,7 @@ hold on; % keep previous plot visible
 plot(X(:,2), X*theta, '-')
 legend('Training data', 'Linear regression')
 hold off % don't overlay any more plots on this figure
-
+print("LinearRegression.jpg");
 % Predict values for population sizes of 35,000 and 70,000
 predict1 = [1, 3.5] *theta;
 fprintf('For population = 35,000, we predict a profit of %f\n',...
@@ -112,7 +112,7 @@ J_vals = J_vals';
 figure;
 surf(theta0_vals, theta1_vals, J_vals)
 xlabel('\theta_0'); ylabel('\theta_1');
-
+print("surfacePlot.jpg");
 % Contour plot
 figure;
 % Plot J_vals as 15 contours spaced logarithmically between 0.01 and 100
@@ -120,3 +120,4 @@ contour(theta0_vals, theta1_vals, J_vals, logspace(-2, 3, 20))
 xlabel('\theta_0'); ylabel('\theta_1');
 hold on;
 plot(theta(1), theta(2), 'rx', 'MarkerSize', 10, 'LineWidth', 2);
+print("contour.jpg");

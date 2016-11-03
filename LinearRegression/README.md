@@ -11,4 +11,4 @@ The diagrams included are:
 1) data.jpg : Scatter plot to visualize the dataset
 2) LinearRegression.jpg : Plot to display the training data with linear regression fit.
 3) surfacePlot.jpg : Plot to display variation in cost function with respect to theta1 and theta2.
-4) surfacePlot.jpg : Plot to display the contour with optimum minimum point.
+4) contour.jpg : Plot to display the contour with optimum minimum point.

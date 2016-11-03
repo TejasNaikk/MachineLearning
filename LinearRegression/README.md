@@ -1,1 +1,8 @@
 This project implements linear regression with one variable to predict profits for a food truck. The input dataset consists of city population and profits associated (output label). The linear regression parameters θ is fitted to the dataset and the cost function is minimized using gradient descent. The final parameters are used to plot the final fit and make predictions on profits in areas with different populations.
+
+The different files included are:
+1) plotData.m : To display the dataset
+2) computeCost.m : Function to compute cost of linear regression
+3) gradientDescent.m : Function to run gradient descent
+4) ex1data1.txt - Dataset for linear regression with one variable
+5) ex1.m - Octave/MATLAB script

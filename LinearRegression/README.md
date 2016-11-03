@@ -6,6 +6,8 @@ The different files included are:
 3) gradientDescent.m : Function to run gradient descent
 4) ex1data1.txt - Dataset for linear regression with one variable
 5) ex1.m - Octave/MATLAB script
+6) warmUpExercise.m - sample function in Octave/MATLAB.
+7) submit.m - Submission script
 
 The diagrams included are:
 1) data.jpg : Scatter plot to visualize the dataset

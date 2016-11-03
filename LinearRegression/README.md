@@ -6,3 +6,9 @@ The different files included are:
 3) gradientDescent.m : Function to run gradient descent
 4) ex1data1.txt - Dataset for linear regression with one variable
 5) ex1.m - Octave/MATLAB script
+
+The diagrams included are:
+1) data.jpg : Scatter plot to visualize the dataset
+2) LinearRegression.jpg : Plot to display the training data with linear regression fit.
+3) surfacePlot.jpg : Plot to display variation in cost function with respect to theta1 and theta2.
+4) surfacePlot.jpg : Plot to display the contour with optimum minimum point.

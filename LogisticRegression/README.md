@@ -16,3 +16,9 @@ Different files included are :
 9)costFunction.m - Logistic Regression Cost Function
 10)predict.m - Logistic Regression Prediction Function
 11)costFunctionReg.m - Regularized Logistic Regression Cost
+
+The diagrams included are :
+1) trainingData.jpg : First training dataset
+2) TrainingData2.jpg : Second training dataset
+3) LogisticRegression.jpg
+4) LogisticRegression2.jpg
